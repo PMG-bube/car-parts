@@ -1,0 +1,45 @@
+{
+    "carParts": [
+      {
+        "id": 1,
+        "name": "Air Filter",
+        "category": "Engine",
+        "price": 25,
+        "quantity": 10,
+        "supplier": "AutoParts Co.",
+        "imageURL": "https://example.com/air-filter.jpg",
+        "rating": 4.5
+      },
+      {
+        "id": 2,
+        "name": "Brake Pads",
+        "category": "Brakes",
+        "price": 40,
+        "quantity": 15,
+        "supplier": "BrakesRUs",
+        "imageURL": "https://example.com/brake-pads.jpg",
+        "rating": 4.7
+      },
+      {
+        "id": 3,
+        "name": "Headlight Bulb",
+        "category": "Lighting",
+        "price": 18,
+        "quantity": 30,
+        "supplier": "LightCo",
+        "imageURL": "https://example.com/headlight-bulb.jpg",
+        "rating": 4.3
+      },
+      {
+        "id": 4,
+        "name": "Car Battery",
+        "category": "Electrical",
+        "price": 120,
+        "quantity": 8,
+        "supplier": "BatteryWorld",
+        "imageURL": "https://example.com/car-battery.jpg",
+        "rating": 4.9
+      }
+    ]
+  }
+  

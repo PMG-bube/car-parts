@@ -1,0 +1,220 @@
+/* General Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f1f6;
+    color: #333;
+    line-height: 1.6;
+    background-image: url('https://example.com/car-background.jpg'); /* Add your background image URL */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content button {
+    padding: 12px 20px;
+    background-color: #ff8800;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+  }
+  
+  .hero-content button:hover {
+    background-color: #ff7700;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #form-section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  #form-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  /* Search and Sort Section */
+  #search-sort-section {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  #searchBar {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 250px;
+  }
+  
+  #sortBy {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 200px;
+  }
+  
+  /* Inventory Section */
+  #inventory-section {
+    width: 100%;
+    padding: 0 30px;
+  }
+  
+  #inventory-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .parts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Card Layout for Each Part */
+  .part-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s;
+  }
+  
+  .part-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .part-card img {
+    max-width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .part-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  
+  .part-details p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .part-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .part-actions button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .part-actions .edit {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .part-actions .delete {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .part-actions .edit:hover {
+    background-color: #0056b3;
+  }
+  
+  .part-actions .delete:hover {
+    background-color: #c82333;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+  }
+  
